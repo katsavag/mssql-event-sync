@@ -1,0 +1,25 @@
+services:
+  sql_primary:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sql_primary
+    environment:
+      SA_PASSWORD: "Pass12345678!!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    networks:
+      - mssqlnet
+
+  sql_secondary:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sql_secondary
+    environment:
+      SA_PASSWORD: "Pass12345678!!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1434:1433"
+    networks:
+      - mssqlnet
+
+networks:
+  mssqlnet:
