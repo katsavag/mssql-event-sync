@@ -1,8 +1,8 @@
-package com.katsadourose.primary_service;
+package com.katsadourose.primary_service.mapper;
 
-import com.katsadourose.primary_service.UserEntity;
-import com.katsadourose.primary_service.CreateUserDto;
-import com.katsadourose.primary_service.UserDto;
+import com.katsadourose.primary_service.entity.UserEntity;
+import com.katsadourose.primary_service.dto.CreateUserDto;
+import com.katsadourose.primary_service.dto.UserDto;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,5 +1,6 @@
-package com.katsadourose.primary_service;
+package com.katsadourose.primary_service.repository.primary;
 
+import com.katsadourose.primary_service.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

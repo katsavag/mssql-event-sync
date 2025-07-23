@@ -1,5 +1,10 @@
-package com.katsadourose.primary_service;
+package com.katsadourose.primary_service.controller;
 
+import com.katsadourose.primary_service.dto.UserDto;
+import com.katsadourose.primary_service.mapper.UserMapper;
+import com.katsadourose.primary_service.service.UserService;
+import com.katsadourose.primary_service.entity.UserEntity;
+import com.katsadourose.primary_service.dto.CreateUserDto;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

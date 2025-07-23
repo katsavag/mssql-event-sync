@@ -1,6 +1,7 @@
-package com.katsadourose.primary_service;
+package com.katsadourose.primary_service.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.katsadourose.primary_service.entity.UserEntity;
+import com.katsadourose.primary_service.repository.primary.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

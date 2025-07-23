@@ -1,5 +1,5 @@
 
-package com.katsadourose.primary_service;
+package com.katsadourose.primary_service.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
